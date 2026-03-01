@@ -26,7 +26,9 @@ Pequeña práctica que muestra una aplicación Razor Pages (ASP.NET Core .NET 9) qu
 
 ## Ejecutar
 Desde la carpeta raíz del repositorio (donde está `docker-compose.yml`):
-
-docker compose up --build
+
+
+docker compose up --build
+
 
 Accede en: [http://localhost:5000](http://localhost:5000)
