@@ -1,16 +1,16 @@
 # Hello World - Razor Pages + MySQL (Docker Compose)
 
-PequeÒa pr·ctica que muestra una aplicaciÛn Razor Pages (ASP.NET Core .NET 9) que se conecta a una base de datos MySQL ejecutada por Docker Compose.
+Peque√±a pr√°ctica que muestra una aplicaci√≥n Razor Pages (ASP.NET Core .NET 9) que se conecta a una base de datos MySQL ejecutada por Docker Compose.
 
-## DescripciÛn
-- P·gina principal que muestra "Hello World!" y permite agregar nombres a una lista persistida en MySQL.
-- Proyecto dividido en: proyecto web (Razor Pages) y biblioteca de lÛgica (Core).
+## Descripci√≥n
+- P√°gina principal que muestra "Hello World!" y permite agregar nombres a una lista persistida en MySQL.
+- Proyecto dividido en: proyecto web (Razor Pages) y biblioteca de l√≥gica (Core).
 
-## Estructura (carpetas fÌsicas)
-- `HelloWorld/` ó Proyecto web (Razor Pages)
-- `HelloWorld.Core.Application/` ó Biblioteca con el repositorio de nombres
-- `docker-compose.yml` ó Orquesta `app` y `db`
-- `HelloWorld/Dockerfile` ó Dockerfile del proyecto web
+## Estructura (carpetas f√≠sicas)
+- `HelloWorld/` ‚Äî Proyecto web (Razor Pages)
+- `HelloWorld.Core.Application/` ‚Äî Biblioteca con el repositorio de nombres
+- `docker-compose.yml` ‚Äî Orquesta `app` y `db`
+- `HelloWorld/Dockerfile` ‚Äî Dockerfile del proyecto web
 
 ## Requisitos
 - Docker y Docker Compose instalados (Docker Desktop o similar).
@@ -18,17 +18,22 @@ PequeÒa pr·ctica que muestra una aplicaciÛn Razor Pages (ASP.NET Core .NET 9) qu
 
 ## Credenciales MySQL (desarrollo)
 - Usuario: `hello`
-- ContraseÒa: `hello`
+- Contrase√±a: `hello`
 - Root: `root` (password `root`)
 - Base de datos: `hello_world`
 
-> La aplicaciÛn usa la cadena de conexiÛn con `server=db;...` porque el servicio MySQL en docker-compose se llama `db`.
+> La aplicaci√≥n usa la cadena de conexi√≥n con `server=db;...` porque el servicio MySQL en docker-compose se llama `db`.
 
 ## Ejecutar
-Desde la carpeta raÌz del repositorio (donde est· `docker-compose.yml`):
-
-
-docker compose up --build
-
+Desde la carpeta ra√≠z del repositorio (donde est√° `docker-compose.yml`):
+docker compose up --build
 
 Accede en: [http://localhost:5000](http://localhost:5000)
+
+## ‚úÖ Evidencias:
+
+<img width="427" height="709" alt="image" src="https://github.com/user-attachments/assets/5f7b0f7d-ebc9-4fd3-a6a6-1b635e0424ca" />
+
+<img width="1600" height="841" alt="image" src="https://github.com/user-attachments/assets/bcfaee69-d7ac-4815-acd7-4ec70641fc10" />
+
+<img width="1600" height="786" alt="image" src="https://github.com/user-attachments/assets/1ba068f2-d896-4c58-9979-d7ac20a972fc" />
